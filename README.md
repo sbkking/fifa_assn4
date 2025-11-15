@@ -1,4 +1,4 @@
-Anuar, [15.11.2025 20:28]
+
 🎯 Goal
 This project demonstrates real-time system and data monitoring using Prometheus and Grafana.
 Three dashboards were built to collect and visualize metrics from:
@@ -104,7 +104,7 @@ import requests, time, os
 API_KEY = os.getenv("OPENWEATHER_API_KEY", "YOUR_API_KEY")
 CITY = os.getenv("CITY", "Astana")
 
-Anuar, [15.11.2025 20:28]
+
 METRICS = {
     "temp": Gauge("weather_temperature_c", "Air temperature", ["city"]),
     "feels_like": Gauge("weather_feels_like_c", "Feels like", ["city"]),
